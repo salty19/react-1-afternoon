@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class ClassNameGoesHere extends Component {
+class EvenAndOdd extends Component {
 
     render(){
         return (
