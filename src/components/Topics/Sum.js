@@ -4,7 +4,7 @@ class Sum extends Component {
 
     render() {
         return (
-            <p> Sum </p>
+            <p> Sum Component </p>
         )
     }
 }
