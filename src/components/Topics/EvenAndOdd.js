@@ -4,7 +4,9 @@ class EvenAndOdd extends Component {
 
     render(){
         return (
-            <p> EvenAndOdd Component </p>
+            <div className="puzzleBox">
+
+            </div>
         )
     }
 }
