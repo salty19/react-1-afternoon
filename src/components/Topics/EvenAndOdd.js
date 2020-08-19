@@ -19,7 +19,7 @@ class EvenAndOdd extends Component {
         let even = [];
         let odds = [];
 
-        for (let i=0;i<arr.length: i++) {
+        for (let i=0;i<arr.length; i++) {
             if (arr[i] % 2 === 0) {
                 EventSource.push (parseInt(arr[i], 10) )
             } else {
