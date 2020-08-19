@@ -6,7 +6,9 @@ class EvenAndOdd extends Component {
         super()
 
         this.state = {
-
+            evenArray: [],
+            oddArray: [],
+            userInput: ''
         }
     }
 
@@ -16,12 +18,12 @@ class EvenAndOdd extends Component {
 
     assignEvenAndOdds(userInput) {
         let arr = userInput.split(',');
-        let even = [];
+        let evens = [];
         let odds = [];
 
         for (let i=0;i<arr.length; i++) {
             if (arr[i] % 2 === 0) {
-                EventSource.push (parseInt(arr[i], 10) )
+                evens.push (parseInt(arr[i], 10) )
             } else {
                 odds.push (parseInt(arr[i], 10))
             }
