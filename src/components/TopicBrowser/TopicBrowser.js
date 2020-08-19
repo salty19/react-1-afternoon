@@ -19,6 +19,17 @@ class TopicBrowser extends Component {
         </div>
         )
     }
+
+    constructor() {
+        super();
+
+        this.state = {
+            evenArray: [],
+            oddArray: [],
+            userInput: ''
+        }
+    }
+
 }
 
 export default TopicBrowser 
