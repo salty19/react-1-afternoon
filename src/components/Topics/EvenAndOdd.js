@@ -6,10 +6,10 @@ class EvenAndOdd extends Component {
         return (
             <div className="puzzleBox evenAndOddPB">
                 <h4> Even And Odds </h4>
-                <input className="inputLine"/>
+                <input className="inputLine" onChange={ (e) => this.handleChange (e.target.value)} />
                 <button className="confirmationButton"> Split </button>
                 <span className="resultsBox"> Evens: {JSON.stringify(this.state.evenArray)} </span>
-                <span className="resultsBox"></span>
+                <span className="resultsBox"> Odds: {JSON.stringify(this.state.oddArray)} </span>
             </div>
         )
     }
