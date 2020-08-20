@@ -16,10 +16,12 @@ class FilterString extends Component {
         return (
             <div className="puzzleBox filterStringPB">
                 <h4> Filter String </h4>
-                <span className="puzzleText"></span>
+                <span className="puzzleText"> Names:  {JSON.stringify(this.state.names, null, 10)}
+                </span>
                 <input className="inputLine" />
                 <button className="confirmationButton"> Filtered </button>
-                <span className="resultsBox filterStringRB"></span>
+                <span className="resultsBox filterStringRB"> Filtered Names:  {JSON.stringify(this.state.filteredNames, null, 10)}
+                </span>
             </div>
         )
     }
