@@ -15,6 +15,7 @@ class FilterObject extends Component {
                     name: 'Stephanie James',
                     title: 'Sales Operations Director',
                     age: 31,
+                    hairColor: 'brown',
                 },
                 {
                     name: 'Jacob Knowle',
