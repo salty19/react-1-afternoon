@@ -28,6 +28,11 @@ class EvenAndOdd extends Component {
                 odds.push (parseInt(arr[i], 10))
             }
         }
+
+        this.setState({
+            evenArray: evens,
+            oddArray: odds
+        })
     }
 
     render(){
